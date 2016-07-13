@@ -7,7 +7,8 @@
 
 function wordCount($phrase)
 {
-    //
-    // YOUR CODE GOES HERE
-    //
+   $phrase "If you found  everything around you strang be sure that you are in good place !";
+   $count  = str_word_count($phrase);
+   echo $count;
 }
+wordCount($phrase);
