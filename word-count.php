@@ -1,13 +1,8 @@
 <?php
 
-//
-// This is only a SKELETON file for the "Hello World" exercise.
-// It's been provided as a convenience to get you started writing code faster.
-//
-
-function wordCount($phrase)
-{
-    //
-    // YOUR CODE GOES HERE
-    //
+function wordCount($phrase= "") {
+    $phrase= "The str_word_count() function counts the number of words in a string.";
+    return str_word_count(explode('', $phrase));
 }
+
+?>
