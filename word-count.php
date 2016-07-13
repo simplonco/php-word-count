@@ -7,7 +7,8 @@
 
 function wordCount($phrase)
 {
-    //
-    // YOUR CODE GOES HERE
-    //
+    $phrase " You make them such as a person who has some problem ";
+    echo  str_word_count($phrase);
+    
 }
+wordCount($phrase);
